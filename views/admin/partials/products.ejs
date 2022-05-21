@@ -1,0 +1,20 @@
+<div class="container mt-3">
+    <div class="row" id="products">
+        <% for(let i=0;i<product.length;i++) { %>
+            <div class="col-md-4 mb-4" id="del<%=product[i]._id %>">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="/<%=product[i].image %>" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 style="text-align:center"class="card-title">
+                            <%=product[i].name %>
+                        </h5>
+                        <p>Price : ₹<%=product[i].price %>
+                        </p>
+                        <a href="/admin/updateproduct/<%=product[i]._id %>" class="btn btn-info">Update </a>
+                        <button style="margin-left: 65px;"class="btn btn-danger productdelete" id="<%=product[i]._id %>">🗑Delete</button>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+    </div>
+</div>

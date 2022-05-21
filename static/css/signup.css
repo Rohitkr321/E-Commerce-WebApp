@@ -1,0 +1,146 @@
+body {
+    background-image: url('../views/autho/background.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+
+.login_page {
+    width: 600px;
+    padding: 10% 0 0;
+    margin: auto
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #f8731acc;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 10px
+}
+
+.form input {
+    font-family: "Roboto", Sans-serif;
+    outline: 1;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border-radius: 2px
+}
+
+.form button {
+    font-family: "Roboto", Sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #318331;
+    width: 100%;
+    border: 2;
+    border-radius: 2px;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer
+}
+
+.form button:hover,
+.form button:active {
+    background: #07ec13d3
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 16px
+}
+
+.form .message a {
+    color: #eff300;
+    text-decoration: none
+}
+
+#logout {
+    margin-left: 50px;
+    background-color: blue;
+}
+
+#para {
+    margin-left: 800px;
+}
+
+#taskContainer {
+    /* background-color: #f2f2f2; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#submit {
+    height: fit-content;
+    background-color: green;
+    padding: 5px;
+    margin-left: 75%;
+    font-size: 20px;
+    margin-top: 20px;
+    border: none;
+    width: 15%;
+}
+
+#text {
+    margin-left: 55%;
+}
+
+.red {
+    color: yellow;
+}
+
+
+
+.bttn {
+    margin-left: 640px;
+    margin-top: 10px;
+}
+
+.plc {
+    margin-top: 150px;
+}
+
+.form-group{
+    width: 30%;
+    height: 30%;
+    background-color: #315783;
+    margin-left: 35%;
+}
+.form-control{
+    padding:2%;
+    width: 70%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+#button{
+    padding: 2%;
+    width: 35%;
+    margin-left: 30%;
+    margin-top: 8%;
+    background-color: orange;
+    text-align: center;
+}
+.head{
+    text-align: center;
+}
+
+#dropdown{
+    margin-left: 50%;
+}
+#mst{
+    margin-top: 8%;
+    color:red
+}
